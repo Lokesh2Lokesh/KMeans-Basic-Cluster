@@ -15,10 +15,10 @@ print(raw_data.hed())
 data=raw_data.copy()
 ## Plot the data
 # Plot the 'Longitude' and 'Latitude' columns
-# plt.scatter(data['Longitude'],data['Latitude'])
-# plt.xlim(-360,360)
-# plt.xlim(-180,180)
-# plt.show()
+plt.scatter(data['Longitude'],data['Latitude'])
+plt.xlim(-360,360)
+plt.xlim(-180,180)
+plt.show()
 ## Select the features
 # Create a copy of that data and remove all parameters apart from Longitude and Latitude.
 # Using Pandas Iloc fucntion
